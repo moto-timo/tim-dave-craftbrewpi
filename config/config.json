@@ -4,14 +4,14 @@
         "name": "AUTHOR",
         "options": null,
         "type": "string",
-        "value": "John Doe"
+        "value": "Tim & Dave"
     },
     "BREWERY_NAME": {
         "description": "Brewery Name",
         "name": "BREWERY_NAME",
         "options": null,
         "type": "string",
-        "value": "CraftBeerPi Brewery"
+        "value": "Tim & Daves Killer Brewing"
     },
     "MASH_TUN": {
         "description": "Default Mash Tun",
@@ -34,6 +34,6 @@
             }
         ],
         "type": "select",
-        "value": "C"
+        "value": "F"
     }
 }

@@ -1,5 +1,15 @@
 {
     "data": [
-       
+        {
+            "agitator": "",
+            "heater": "",
+            "id": "Nrb8KA2KnioMmfmuYgo8y5",
+            "name": "Spike+ Solo",
+            "props": {},
+            "sensor": "",
+            "state": false,
+            "target_temp": 0,
+            "type": "Hysteresis"
+        }
     ]
 }
