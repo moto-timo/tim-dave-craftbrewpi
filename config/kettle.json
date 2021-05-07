@@ -6,7 +6,7 @@
             "id": "Nrb8KA2KnioMmfmuYgo8y5",
             "name": "Spike+ Solo",
             "props": {},
-            "sensor": "",
+            "sensor": "XAE2gqiJL9SqjmPw64EZ5z",
             "state": false,
             "target_temp": 0,
             "type": "Hysteresis"

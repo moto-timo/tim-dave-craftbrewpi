@@ -1,5 +1,17 @@
 {
     "data": [
-        
+        {
+            "id": "XAE2gqiJL9SqjmPw64EZ5z",
+            "name": "temp",
+            "props": {
+                "ConfigText": "[0xD2] - 3 Wires Auto",
+                "Interval": 1,
+                "RefRest": "431",
+                "ResSens": 100,
+                "csPin": 5
+            },
+            "state": false,
+            "type": "PT100X_Sensor"
+        }
     ]
 }

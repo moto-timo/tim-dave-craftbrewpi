@@ -38,3 +38,4 @@ typing-extensions==3.10.0.0
 urllib3==1.26.4
 voluptuous==0.12.1
 yarl==1.6.3
+cbpi4-pt100x==0.0.7

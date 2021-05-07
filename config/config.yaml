@@ -1,14 +1,10 @@
-
-name: CraftBeerPi
-version: 4.0.8
-
 index_url: /cbpi_ui/static/index.html
-
-port: 8000
-
-username: cbpi
+name: CraftBeerPi
 password: 123
-
 plugins:
 - cbpi4ui
-
+- cbpi4-pt100
+- cbpi4-pt100x
+port: 8000
+username: cbpi
+version: 4.0.8

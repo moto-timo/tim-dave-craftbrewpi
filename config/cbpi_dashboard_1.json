@@ -1,0 +1,29 @@
+{
+    "elements": [
+        {
+            "id": "c8468a0c-fd60-43b5-a80c-618c96746da1",
+            "name": "Kettle",
+            "props": {
+                "heigth": "150",
+                "width": "100"
+            },
+            "type": "Kettle",
+            "x": 610,
+            "y": 140
+        },
+        {
+            "id": "1d846a2b-fd67-499c-96bb-e372e9f3aae7",
+            "name": "Sensor Data",
+            "props": {
+                "color": "#fff",
+                "sensor": "XAE2gqiJL9SqjmPw64EZ5z",
+                "size": "12",
+                "unit": "\u00b0"
+            },
+            "type": "Sensor",
+            "x": 655,
+            "y": 230
+        }
+    ],
+    "pathes": []
+}

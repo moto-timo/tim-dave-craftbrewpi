@@ -10,7 +10,8 @@ As per instructions on [Craft Brew Pi](https://craftbeerpi.gitbook.io/craftbeerp
     python3 -m venv venv
     source venv/bin/activate
     pip3 install -r requirements.txt
-    cbpi start
+    sudo pip3 install cbpi4-pt100x # Lame -_-
+    sudo cbpi start # Need to troubleshoot why usermod -a -G kmem <user> didn't work
 
 You can then access craft beer pi via [http://localhost:8000/](http://localhost:8000/)
 
