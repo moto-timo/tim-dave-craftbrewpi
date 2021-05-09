@@ -1,6 +1,67 @@
 {
     "basic": {
-        "name": ""
+        "author": "Tim & Dave",
+        "desc": "Beer!",
+        "name": "New Recipe"
     },
-    "steps": []
+    "steps": [
+        {
+            "id": "P3BK62vZV9sfbrKvweZLTK",
+            "name": "Mash in",
+            "props": {
+                "AutoMode": "Yes",
+                "Kettle": "Nrb8KA2KnioMmfmuYgo8y5",
+                "Notification": "Ready to mash in",
+                "Sensor": "XAE2gqiJL9SqjmPw64EZ5z",
+                "Temp": "140"
+            },
+            "state_text": "",
+            "status": "I",
+            "type": "MashInStep"
+        },
+        {
+            "id": "nxHNRWg7iZTbxTnN2kyN9A",
+            "name": "Step up temp",
+            "props": {
+                "AutoMode": "Yes",
+                "Kettle": "Nrb8KA2KnioMmfmuYgo8y5",
+                "Sensor": "XAE2gqiJL9SqjmPw64EZ5z",
+                "Temp": "152",
+                "Timer": "60"
+            },
+            "state_text": "",
+            "status": "I",
+            "type": "MashStep"
+        },
+        {
+            "id": "QW7csvR6TTibmCSFESt4Bd",
+            "name": "Rinse Grains",
+            "props": {
+                "AutoMode": "Yes",
+                "Kettle": "Nrb8KA2KnioMmfmuYgo8y5",
+                "Sensor": "XAE2gqiJL9SqjmPw64EZ5z",
+                "Temp": "172",
+                "Timer": "15"
+            },
+            "state_text": "",
+            "status": "I",
+            "type": "MashStep"
+        },
+        {
+            "id": "dcvb7NPvuyJyJZsusTowWS",
+            "name": "Boil",
+            "props": {
+                "AutoMode": "Yes",
+                "First_Wort": "Yes",
+                "Kettle": "Nrb8KA2KnioMmfmuYgo8y5",
+                "LidAlert": "Yes",
+                "Sensor": "XAE2gqiJL9SqjmPw64EZ5z",
+                "Temp": "212",
+                "Timer": "60"
+            },
+            "state_text": "",
+            "status": "I",
+            "type": "BoilStep"
+        }
+    ]
 }

@@ -3,7 +3,6 @@ name: CraftBeerPi
 password: 123
 plugins:
 - cbpi4ui
-- cbpi4-pt100
 - cbpi4-pt100x
 port: 8000
 username: cbpi

@@ -1,0 +1,29 @@
+basic:
+    author: Tim & Dave
+    desc: Beer!
+    name: New Recipe
+steps:
+-   name: Mash in
+    props:
+        AutoMode: 'Yes'
+        Kettle: Nrb8KA2KnioMmfmuYgo8y5
+        Notification: Ready to mash in
+        Sensor: XAE2gqiJL9SqjmPw64EZ5z
+        Temp: '140'
+    type: MashInStep
+-   name: Step up temp
+    props:
+        AutoMode: 'Yes'
+        Kettle: Nrb8KA2KnioMmfmuYgo8y5
+        Sensor: XAE2gqiJL9SqjmPw64EZ5z
+        Temp: '152'
+        Timer: '60'
+    type: MashStep
+-   name: Rinse Grains
+    props:
+        AutoMode: 'Yes'
+        Kettle: Nrb8KA2KnioMmfmuYgo8y5
+        Sensor: XAE2gqiJL9SqjmPw64EZ5z
+        Temp: '172'
+        Timer: '15'
+    type: MashStep

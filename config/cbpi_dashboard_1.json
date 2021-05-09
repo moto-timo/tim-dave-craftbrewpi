@@ -4,12 +4,12 @@
             "id": "c8468a0c-fd60-43b5-a80c-618c96746da1",
             "name": "Kettle",
             "props": {
-                "heigth": "150",
-                "width": "100"
+                "heigth": "100",
+                "width": "250"
             },
             "type": "Kettle",
-            "x": 610,
-            "y": 140
+            "x": 865,
+            "y": 220
         },
         {
             "id": "1d846a2b-fd67-499c-96bb-e372e9f3aae7",
@@ -17,13 +17,115 @@
             "props": {
                 "color": "#fff",
                 "sensor": "XAE2gqiJL9SqjmPw64EZ5z",
-                "size": "12",
+                "size": "50",
                 "unit": "\u00b0"
             },
             "type": "Sensor",
-            "x": 655,
-            "y": 230
+            "x": 945,
+            "y": 395
+        },
+        {
+            "id": "4c241ce5-b5ce-4c8c-8d94-faf2989651ad",
+            "name": "KettleControl",
+            "props": {
+                "kettle": "Nrb8KA2KnioMmfmuYgo8y5",
+                "orientation": "horizontal"
+            },
+            "type": "KettleControl",
+            "x": 875,
+            "y": 110
+        },
+        {
+            "id": "507cb8f2-6f63-47f0-8d63-55ea016c60c9",
+            "name": "Temp Over Time",
+            "props": {
+                "height": "500",
+                "linecolor": "#00FF00",
+                "refresh": 10,
+                "sensor": "XAE2gqiJL9SqjmPw64EZ5z",
+                "width": "500"
+            },
+            "type": "Chart",
+            "x": 1465,
+            "y": 70
+        },
+        {
+            "id": "5d69a464-94e7-4305-9d56-e20c31f6ed72",
+            "name": "Steps",
+            "props": {
+                "width": "200"
+            },
+            "type": "Steps",
+            "x": 145,
+            "y": 225
+        },
+        {
+            "id": "ae51258a-a647-45f0-915f-7a791a9f61cc",
+            "name": "Clock",
+            "props": {
+                "color": "#fff",
+                "showDate": "no",
+                "size": "100"
+            },
+            "type": "Clock",
+            "x": 90,
+            "y": 45
+        },
+        {
+            "id": "4e44014c-4f47-4dfb-a696-7e21b855c35a",
+            "name": "TargetTemp",
+            "props": {
+                "color": "#fff",
+                "kettle": "Nrb8KA2KnioMmfmuYgo8y5",
+                "size": "30",
+                "unit": "\u00b0"
+            },
+            "type": "TargetTemp",
+            "x": 960,
+            "y": 290
+        },
+        {
+            "id": "8b75846d-d00d-4632-a897-46a4aec9c716",
+            "name": "Target",
+            "props": {
+                "color": "#fff",
+                "size": "25"
+            },
+            "type": "Text",
+            "x": 905,
+            "y": 260
+        },
+        {
+            "id": "3a57fa68-0a6a-4cd2-bc96-8113191c08e0",
+            "name": "Actual",
+            "props": {
+                "color": "#fff",
+                "size": "25"
+            },
+            "type": "Text",
+            "x": 895,
+            "y": 370
+        },
+        {
+            "id": "33b5a8ea-06cb-42e8-83f7-b6a7d0f9e8d4",
+            "name": "Led",
+            "props": {
+                "actor": "hZnUgXkWuXppTcFXxHdNWv"
+            },
+            "type": "Led",
+            "x": 985,
+            "y": 535
+        },
+        {
+            "id": "63a56673-eb5e-41a7-a239-d35be7a3648f",
+            "name": "Element - Pump - Start brew? - Set target temp",
+            "props": {
+                "color": "#fff",
+                "size": "10"
+            },
+            "type": "Text",
+            "x": 880,
+            "y": 75
         }
-    ],
-    "pathes": []
+    ]
 }

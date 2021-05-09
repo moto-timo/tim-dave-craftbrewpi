@@ -1,4 +1,4 @@
-# Tim & Daves Killer Brewery
+# Tim & Daves Killer Electric Brewery
 
 A new exploration into the world of single vessle electric homebrew.
 
