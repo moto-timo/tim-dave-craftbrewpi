@@ -35,7 +35,7 @@ six==1.15.0
 tabulate==0.8.7
 ticket-auth==0.1.4
 typing-extensions==3.10.0.0
-urllib3==1.26.4
+urllib3==2.6.0
 voluptuous==0.12.1
 yarl==1.6.3
 cbpi4-pt100x==0.0.7
